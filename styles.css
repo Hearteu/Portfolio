@@ -72,4 +72,14 @@ meter {
     -webkit-user-drag: element;
 }
 
+.navBar{
+    position: fixed;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    width: 100%;
+    margin: 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
 
