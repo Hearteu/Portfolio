@@ -146,7 +146,7 @@ nav ul a:hover {
 
 /* Welcome section */
 
-#welcome-section {
+#home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,7 +156,7 @@ nav ul a:hover {
     background-color: #000;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
-#welcome-section p {
+#home p {
     font-style: italic;
     font-size: 3rem;
     font-weight: 200;
@@ -166,26 +166,26 @@ nav ul a:hover {
 
 /* Projects section */
 
-#projects {
+#about {
   text-align: center;
   padding: 10rem 2rem;
   background-color: darkolivegreen;
   height: 100vh;
 }
 
-#projects h2 {
+#about h2 {
   max-width: 520px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
 }
 
 @media (max-width: 28.75em) {
-  #projects h2 {
+  #about h2 {
     font-size: 4rem;
   }
 }
 
-#projects p {
+#about p {
     font-style: italic;
     font-size: 3rem;
     font-weight: 200;
@@ -218,9 +218,9 @@ nav ul a:hover {
   transition: transform 0.3s ease-out;
 }
 
-/* Contacts section */
+/* hobbies section */
 
-#contacts {
+#hobbies {
     background-color: #eee;
     color: black;
     display: flex;
@@ -232,13 +232,13 @@ nav ul a:hover {
     height: 80vh;
     padding: 0 2rem;
 }
-#contacts h2{
+#hobbies h2{
     font-size: 6rem;
 }
-#contacts p {
+#hobbies p {
     font-style: italic;
 }
-#contacts a {
+#hobbies a {
     color: black;
 }
 .contact-links {
