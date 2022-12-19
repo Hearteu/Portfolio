@@ -218,6 +218,11 @@ nav ul a:hover {
  padding: 10px;
 }
 
+.about p{
+  max-width: 525px;
+  width: 100%;
+}
+
 .about i{
   color: var(--main-red);
 }
