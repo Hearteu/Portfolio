@@ -205,6 +205,9 @@ nav ul a:hover {
 }
 
 .about{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   border: 5px solid black;
