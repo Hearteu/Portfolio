@@ -173,6 +173,17 @@ nav ul a:hover {
   background-color: var(--main-gray);
   align-content: flex-end;
   height: min-content;
+  font-size: 2.4rem;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
 }
 
 .contact-details:hover .code{
@@ -239,44 +250,32 @@ nav ul a:hover {
 
 /* Hobbies section */
 
-#contacts {
-    background-color: #eee;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 80vh;
-    padding: 0 2rem;
-    background: var(--main-gray);
+.hobbies-grid {
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  grid-template-columns: 30% 35% 35%;
+  grid-template-rows: 85% 15%;
+  border: 5px solid black;
 }
-#contacts h2{
+
+.hobbies-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: var(--main-gray);
+}
+.hobbies-section h2{
     font-size: 6rem;
 }
-#contacts p {
+.hobbies-section p {
     font-style: italic;
 }
-#contacts a {
-    color: black;
-}
-
-.contact-details {
-  font-size: 2.4rem;
-  transition: transform 0.3s ease-out;
-}
-
-.contact-details:hover {
-  transform: translateY(8px);
-}
-
-.btn {
-  display: inline-block;
-  padding: 1rem 2rem;
-  border-radius: 2px;
-}
-
 
 /* Footer */
 
