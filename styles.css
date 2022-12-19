@@ -181,7 +181,7 @@ nav ul a:hover {
   grid-row: 1 / span 2;
 }
 
-#abouts .contact-links{
+.contact-links{
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -208,14 +208,14 @@ nav ul a:hover {
   padding: 1rem 2rem;
 }
 
-.contact-details:hover .code{
-  color: #ff7f50;
-  opacity: 1;
-}
-
 .code {
   transition: color 0.3s ease-out;
   opacity: 0;
+}
+
+.contact-details:hover .code{
+  color: #ff7f50;
+  opacity: 1;
 }
 
 .about:hover .code {
@@ -314,7 +314,6 @@ nav ul a:hover {
   width: 100%;
   height: 30%;
   justify-content: space-evenly;
-  overflow: hidden;
 }
 .hobbies-text div{
   width: 34%;
@@ -329,15 +328,15 @@ nav ul a:hover {
 /* Footer */
 
 footer {
-    font-weight: 300;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    padding: 2rem;
-    padding-right: 5rem;
-    width: 100%;
-    border-top: 4px solid maroon;
-    background: var(--main-gray);
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 2rem;
+  padding-right: 5rem;
+  width: 100%;
+  border-top: 4px solid maroon;
+  background: var(--main-gray);
 }
 
 footer p {
