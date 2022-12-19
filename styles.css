@@ -259,9 +259,6 @@ nav ul a:hover {
   padding: 0 2rem;
   background: var(--main-gray);
 }
-.hobbies-section p {
-    font-style: italic;
-}
 
 .hobbies-grid {
   display: flex;
@@ -272,7 +269,6 @@ nav ul a:hover {
   justify-content: center;
   align-items: center;
   row-gap: 5px;
-  border: 5px solid black;
   height: 80%;
 }
 
@@ -281,7 +277,7 @@ nav ul a:hover {
   flex-direction: row;
   width: 100%;
   height: 70%;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .hobbies-images img{
@@ -295,7 +291,17 @@ nav ul a:hover {
   flex-direction: row;
   width: 100%;
   height: 30%;
-  border: 5px solid black;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.hobbies-text div{
+  width: 34%;
+  padding: 10px;
+}
+
+.hobbies-text p{
+  width: 100%;
+  padding: 10px;
 }
 
 /* Footer */
@@ -314,8 +320,4 @@ footer {
 
 footer p {
   margin: 2rem;
-}
-
-footer i {
-  vertical-align: middle;
 }
